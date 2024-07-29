@@ -3,10 +3,10 @@ This repository contains an in-depth analysis of Adidas Sales dataset for the pe
 ## Objectives
 The primary objective of this analysis is to develop a dynamic, interactive dashboard to visualize the sales and profit trends over the years in different locations, identifying the most successful product and the sales performance of the retailers in order to facilitate with data-driven decision-making.
 ## Data
-•	The dataset was collected from Kaggle
+-	The dataset was collected from Kaggle
 https://www.kaggle.com/datasets/ahmedabbas757/dataset
-•	The extent of this dataset is limited to USA for the period of 2020 to 2021
-•	An overview of the columns of the dataset can be viewed in the following snapshot
+-	The extent of this dataset is limited to USA for the period of 2020 to 2021
+-	An overview of the columns of the dataset can be viewed in the following snapshot
 <div align="center">
 <img width="181" alt="Dataset_Adidas Sales Data" src="https://github.com/user-attachments/assets/35dfce6e-0a5f-46f9-951b-78fd259a7806">
 </div>
