@@ -36,7 +36,9 @@ The analysis is structured into three dashboards including:
 The snapshots of the dashboards are attached below to get a glimpse of the dashboards.
 <div align="center">
   <img width="719" alt="Sales and Profit Dashboard" src="https://github.com/user-attachments/assets/36e2a47d-d332-4e7b-847d-6b771a5f034c">
+  
   <img width="719" alt="Product Analysis Dashboard" src="https://github.com/user-attachments/assets/af106c8a-2ca0-431c-a280-40b5f6c9419e">
+  
 <img width="719" alt="Retailer Analysis Dashboard" src="https://github.com/user-attachments/assets/90500e75-c444-49ca-9c7a-2f87d91cdd69">
 </div>
 
@@ -46,8 +48,8 @@ The snapshots of the dashboards are attached below to get a glimpse of the dashb
 ## Author:
 Binita Roy
 ## Contact:
-For any inquiries or collaborations, please reach out via email:[ binitaroy1312@gmail.com
-](binitaroy1312@gmail.com)
+For any inquiries or collaborations, please reach out via email:[binitaroy1312@gmail.com
+](mailto:binitaroy1312@gmail.com)
 
 
 
