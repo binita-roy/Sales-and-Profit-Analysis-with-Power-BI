@@ -48,7 +48,7 @@ The snapshots of the dashboards are attached below to get a glimpse of the dashb
 ## Author:
 Binita Roy
 ## Contact:
-For any inquiries or collaborations, please reach out via email:[binitaroy1312@gmail.com
+For any inquiries or collaborations, please reach out via email: [binitaroy1312@gmail.com
 ](mailto:binitaroy1312@gmail.com)
 
 
