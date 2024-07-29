@@ -8,7 +8,7 @@ https://www.kaggle.com/datasets/ahmedabbas757/dataset
 •	The extent of this dataset is limited to USA for the period of 2020 to 2021
 •	An overview of the columns of the dataset can be viewed in the following snapshot
 
-                            <img width="181" alt="Dataset_Adidas Sales Data" src="https://github.com/user-attachments/assets/35dfce6e-0a5f-46f9-951b-78fd259a7806">
+<img width="181" alt="Dataset_Adidas Sales Data" src="https://github.com/user-attachments/assets/35dfce6e-0a5f-46f9-951b-78fd259a7806">
 
 ## Overview
 The analysis is structured into three dashboards including:
