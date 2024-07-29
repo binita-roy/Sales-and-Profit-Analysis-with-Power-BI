@@ -9,6 +9,7 @@ https://www.kaggle.com/datasets/ahmedabbas757/dataset
 •	An overview of the columns of the dataset can be viewed in the following snapshot
 <div align="center">
 <img width="181" alt="Dataset_Adidas Sales Data" src="https://github.com/user-attachments/assets/35dfce6e-0a5f-46f9-951b-78fd259a7806">
+</div>
 
 ## Overview
 The analysis is structured into three dashboards including:
