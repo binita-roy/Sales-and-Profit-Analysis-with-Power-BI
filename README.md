@@ -6,7 +6,7 @@ The primary objective of this analysis is to develop a dynamic, interactive dash
 -	The dataset was collected from Kaggle
 https://www.kaggle.com/datasets/ahmedabbas757/dataset
 -	The extent of this dataset is limited to USA for the period of 2020 to 2021
--	An overview of the columns of the dataset can be viewed in the following snapshot
+-	An overview of the columns of the dataset can be viewed in the following snapshot:
 <div align="center">
 <img width="181" alt="Dataset_Adidas Sales Data" src="https://github.com/user-attachments/assets/35dfce6e-0a5f-46f9-951b-78fd259a7806">
 </div>
@@ -20,31 +20,34 @@ The analysis is structured into three dashboards including:
 1.	**Data Import:** Downloaded the Adidas Sales dataset from Kaggle and imported it into Power BI Dsktop.
 2.	**Data Transformation:** Utilized the Power Query to check the data quality and errors and prepared it for the analysis by cleaning and formatting.
 3.	**New Measure and Column:** Utilized the DAX (Data Analysis Expressions) functions of Power BI to create the following columns and measures:
-```Profit Margin = 'data_sales (1)'[Operating Profit] / 'data_sales (1)'[Total Sales]```
-`Total Amount of Sales = 'data_sales (1)'[Price per Unit] * 'data_sales (1)'[Units Sold]`
-`Profit = 'data_sales (1)'[Total Amount of Sales] * 'data_sales (1)'[Profit Margin]`
-`Cost_of_Good_Sold = 'data_sales (1)'[Total Amount of Sales] - 'data_sales (1)'[Profit]`
-`Target Profit by Year = 5000000`
-`Target Profit Margin = 0.5`
-`Target Sales by Year = 10000000`
-`Maximum Profit Margin = 1.0`
-`Number of Sales Above Target Profit Margin = SUMX('data_sales (1)', IF('data_sales (1)'[Profit Margin] > [Target Profit Margin], 1, 0))`
-`Number of Sales Below Target Profit Margin = SUMX('data_sales (1)', IF('data_sales (1)'[Profit Margin] < [Target Profit Margin], 1, 0))`
+- `Profit Margin = 'data_sales (1)'[Operating Profit] / 'data_sales (1)'[Total Sales]`
+- `Total Amount of Sales = 'data_sales (1)'[Price per Unit] * 'data_sales (1)'[Units Sold]`
+- `Profit = 'data_sales (1)'[Total Amount of Sales] * 'data_sales (1)'[Profit Margin]`
+- `Cost_of_Good_Sold = 'data_sales (1)'[Total Amount of Sales] - 'data_sales (1)'[Profit]`
+- `Target Profit by Year = 5000000`
+- `Target Profit Margin = 0.5`
+- `Target Sales by Year = 10000000`
+- `Maximum Profit Margin = 1.0`
+- `Number of Sales Above Target Profit Margin = SUMX('data_sales (1)', IF('data_sales (1)'[Profit Margin] > [Target Profit Margin], 1, 0))`
+- `Number of Sales Below Target Profit Margin = SUMX('data_sales (1)', IF('data_sales (1)'[Profit Margin] < [Target Profit Margin], 1, 0))`
 4.	**Data Visualization:** Used different data visualization options such as Card, KPI, Line chart, Map, Pie chart, and so on to visualize the key insights of the dataset.
 5.	**Interaction with the Visuals:** Utilized the “Slicer” visual for exploring the dashboard using the dropdowns and tiles to filter the Year, Retailer, Product by Gender, Product, and State to uncover the trends and patterns based on the filters.
 ## Dashboards
 The snapshots of the dashboards are attached below to get a glimpse of the dashboards.
-![image](https://github.com/user-attachments/assets/a4152b1a-099a-4615-a534-acf92da25fc4)
-![image](https://github.com/user-attachments/assets/3453d03f-b3bb-4a20-87c3-263ae1824e6d)
-![image](https://github.com/user-attachments/assets/b3aaffb0-cdec-4468-b557-16adf64c2b10)
+<div align="center">
+  <img width="719" alt="Sales and Profit Dashboard" src="https://github.com/user-attachments/assets/36e2a47d-d332-4e7b-847d-6b771a5f034c">
+  <img width="719" alt="Product Analysis Dashboard" src="https://github.com/user-attachments/assets/af106c8a-2ca0-431c-a280-40b5f6c9419e">
+<img width="719" alt="Retailer Analysis Dashboard" src="https://github.com/user-attachments/assets/90500e75-c444-49ca-9c7a-2f87d91cdd69">
+</div>
+
 ## Acknowledgements:
-•	Microsoft Power BI for facilitating the data analysis and visualization.
-•	Kaggle for providing the Adidas Sales dataset.
+-	Microsoft Power BI for facilitating the data analysis and visualization.
+-	Kaggle for providing the Adidas Sales dataset.
 ## Author:
 Binita Roy
 ## Contact:
-For any inquiries or collaborations, please reach out via email: [binitaroy1312@gmail.com] (binitaroy1312@gmail.com)
-
+For any inquiries or collaborations, please reach out via email:[ binitaroy1312@gmail.com
+](binitaroy1312@gmail.com)
 
 
 
