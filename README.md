@@ -7,7 +7,9 @@ The primary objective of this analysis is to develop a dynamic, interactive dash
 https://www.kaggle.com/datasets/ahmedabbas757/dataset
 •	The extent of this dataset is limited to USA for the period of 2020 to 2021
 •	An overview of the columns of the dataset can be viewed in the following snapshot
-![image](https://github.com/user-attachments/assets/518463f9-985c-4c59-b261-dcbe3fe80ae0)
+
+<img width="181" alt="Dataset_Adidas Sales Data" src="https://github.com/user-attachments/assets/35dfce6e-0a5f-46f9-951b-78fd259a7806">
+
 ## Overview
 The analysis is structured into three dashboards including:
 1.	**Sales and Profit Analysis:** Provides an interactive dashboard to visualize the trends of sales, profit, cost of goods sold, profit margin, and important KPIs of sales and profit over the analysis period across different regions of USA.
@@ -17,7 +19,7 @@ The analysis is structured into three dashboards including:
 1.	**Data Import:** Downloaded the Adidas Sales dataset from Kaggle and imported it into Power BI Dsktop.
 2.	**Data Transformation:** Utilized the Power Query to check the data quality and errors and prepared it for the analysis by cleaning and formatting.
 3.	**New Measure and Column:** Utilized the DAX (Data Analysis Expressions) functions of Power BI to create the following columns and measures:
-`Profit Margin = 'data_sales (1)'[Operating Profit] / 'data_sales (1)'[Total Sales]`
+```Profit Margin = 'data_sales (1)'[Operating Profit] / 'data_sales (1)'[Total Sales]```
 `Total Amount of Sales = 'data_sales (1)'[Price per Unit] * 'data_sales (1)'[Units Sold]`
 `Profit = 'data_sales (1)'[Total Amount of Sales] * 'data_sales (1)'[Profit Margin]`
 `Cost_of_Good_Sold = 'data_sales (1)'[Total Amount of Sales] - 'data_sales (1)'[Profit]`
